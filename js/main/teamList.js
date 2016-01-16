@@ -100,36 +100,36 @@ function getVisitedProf() {
     $("#infoList").append(
     '<tr>'
         + '<td><a target="_self" href="teamDetail.html?type=2&id=1">戴民</a></td>'
-        + '<td>内容待添加</td>'
-        + '<td>内容待添加</td>'
+        + '<td>这是一段说明名字，例如研究方向</td>'
+        + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
         + '<td><a target="_self" href="teamDetail.html?type=2&id=1">鄂维南</a></td>'
-        + '<td>内容待添加</td>'
-        + '<td>内容待添加</td>'
+        + '<td>这是一段说明名字，例如研究方向</td>'
+        + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
         + '<td><a target="_self" href="teamDetail.html?type=2&id=1">黄京芳</a></td>'
-        + '<td>内容待添加</td>'
-        + '<td>内容待添加</td>'
+        + '<td>这是一段说明名字，例如研究方向</td>'
+        + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
         + '<td><a target="_self" href="teamDetail.html?type=2&id=1">柳春</a></td>'
-        + '<td>内容待添加</td>'
-        + '<td>内容待添加</td>'
+        + '<td>这是一段说明名字，例如研究方向</td>'
+        + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
         + '<td><a target="_self" href="teamDetail.html?type=2&id=1">王成</a></td>'
-        + '<td>内容待添加</td>'
-        + '<td>内容待添加</td>'
+        + '<td>这是一段说明名字，例如研究方向</td>'
+        + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      
