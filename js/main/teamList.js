@@ -35,7 +35,7 @@
     
 });
 
-//加载教师信息列表
+//加载教师信息列表 type=1
 function getTeacher() {
     $("#infoList").append(
     '<tr>'
@@ -95,7 +95,7 @@ function getTeacher() {
     );
 }
 
-//加载访问讲座教授信息列表
+//加载访问讲座教授信息列表 type=2
 function getVisitedProf() {
     $("#infoList").append(
     '<tr>'
@@ -106,28 +106,28 @@ function getVisitedProf() {
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=1">鄂维南</a></td>'
+        + '<td><a target="_self" href="teamDetail.html?type=2&id=2">鄂维南</a></td>'
         + '<td>这是一段说明名字，例如研究方向</td>'
         + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=1">黄京芳</a></td>'
+        + '<td><a target="_self" href="teamDetail.html?type=2&id=3">黄京芳</a></td>'
         + '<td>这是一段说明名字，例如研究方向</td>'
         + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=1">柳春</a></td>'
+        + '<td><a target="_self" href="teamDetail.html?type=2&id=4">柳春</a></td>'
         + '<td>这是一段说明名字，例如研究方向</td>'
         + '<td>这里填上邮箱地址</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=1">王成</a></td>'
+        + '<td><a target="_self" href="teamDetail.html?type=2&id=5">王成</a></td>'
         + '<td>这是一段说明名字，例如研究方向</td>'
         + '<td>这里填上邮箱地址</td>'
     + '</tr>'
@@ -136,18 +136,18 @@ function getVisitedProf() {
 }
 
 
-//加载博士后信息列表
+//加载博士后信息列表 type=3
 function getPostdoc() {
     $("#infoList").append(
     '<tr>'
-		+ '<td><a target="_self" href="teamDetail.html?type=2&id=1">XXX</a></td>'
+		+ '<td><a target="_self" href="teamDetail.html?type=3&id=1">XXX</a></td>'
 		+ '<td>偏微分方程数值解、多尺度建模及模拟	</td>'
 		+ '<td>xyh@suda.edu.cn</td>'
 	+ '</tr>'
     );
 }
 
-//加载学生信息列表
+//加载学生信息列表 type=4
 function getStudent() {
     $("#infoList").append(
     '<tr>'

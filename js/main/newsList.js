@@ -27,7 +27,7 @@ $(document).ready(function () {
 function infoList(getType) {
     var test = window.location.href;
     var type = GetArgsFromHref(test, "type");
-    if (type == 1){
+    if (type == 1){ //学术新闻
         $("#infoList").append(
             '<tr>'
                 +'<td><a target="_self" href="../../材料/summerschool.htm">Summer school on mathematical finance</a></td>'
@@ -58,8 +58,14 @@ function infoList(getType) {
                 +'<td>16-18 June 2016</td>'
             +'</tr>'
         );
+        $("#infoList").append(
+            '<tr>'
+                +'<td><a target="_self"  href="我是超链接地址 ">我是新闻的标题</a></td>'
+                +'<td>21-24 August 2016</td>'
+            +'</tr>'
+        );
     }
-    else if(type==2){
+    else if(type==2){ //通知公告
         $("#infoList").append(
             '<tr>'
                 +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=1">公告通知1</a></td>'
@@ -68,19 +74,19 @@ function infoList(getType) {
         );
         $("#infoList").append(
             '<tr>'
-                +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=2">公告通知1</a></td>'
+                +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=2">公告通知2</a></td>'
                 +'<td></td>'
             +'</tr>'
         );
         $("#infoList").append(
             '<tr>'
-                +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=3">公告通知1</a></td>'
+                +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=3">公告通知3</a></td>'
                 +'<td></td>'
             +'</tr>'
         );
 
     }
-    else if(type==3){
+    else if(type==3){ //学术报告
         $("#infoList").append(
             '<tr>'
                 +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=1">Point-spread function reconstruction in ground-based astronomy</a></td>'
@@ -202,7 +208,7 @@ function infoList(getType) {
             +'</tr>'
         );
     }
-    else if(type==4){
+    else if(type==4){ //学术会议
         $("#infoList").append(
             '<tr>'
                 +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=1">会议标题1</a></td>'

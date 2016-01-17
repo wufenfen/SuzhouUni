@@ -26,21 +26,18 @@ $(document).ready(function(){
 	 if (type == 1) {
 	     if(id==1){
 		     news_title='新闻标题1';//新闻标题
-		     news_abstract='新闻摘要1';//新闻摘要
 		     news_content='新闻内容1';//新闻内容
 		     news_date='新闻发布日期1';//新闻发布日期
 		     news_url='新闻来源1';//新闻来源，比如超链接
 	     }
 	     if(id==2){
-		     news_title='';
-		     news_abstract='';
+		     news_title=''; 
 		     news_content='';
 		     news_date='';
 		     news_url='';
 	     }
 	     if(id==3){
-		     news_title='';
-		     news_abstract='';
+		     news_title=''; 
 		     news_content='';
 		     news_date='';
 		     news_url='';
@@ -69,7 +66,7 @@ $(document).ready(function(){
 	 if (type == 3) {
 	     if(id==1){
 		     talk_title='Point-spread function reconstruction in ground-based astronomy';
-		     talk_abstract='摘要1';
+		     talk_abstract='我是摘要';
 		     talk_speaker='报告人1';
 		     talk_time='2015-11-9';
 		     talk_room='会议地点1';
@@ -238,25 +235,21 @@ $(document).ready(function(){
 
      if (type == 1){
          $("#nameNav").text(news_title);
-	     $("#nameTitle").text(news_title);
 	     $("#namecontent").text(news_title);
-	     $("#content").html('&nbsp&nbsp&nbsp&nbsp' + '时间：' + news_date + '<p>' + '<p>' + '&nbsp&nbsp&nbsp&nbsp' + '摘要：' + news_abstract + '<p>' + '<p>' + '&nbsp&nbsp&nbsp&nbsp' + '内容：' + news_content + '<p>' + '<p>' + '链接：' + '&nbsp&nbsp&nbsp&nbsp' + news_url);
+	     $("#content").html('时间：' + news_date + '<p>' +  '<p>' +  '内容：' + news_content + '<p>' + '<p>' + '链接：' + news_url);
      }
      else if (type == 2){
      	 $("#nameNav").text(notice_title);
-	     $("#nameTitle").text(notice_title);
 	     $("#namecontent").text(notice_title);
 	     $("#content").html('日期：' + notice_date + '<p>' + '<p>' + '内容：' + notice_content + '<p>' + '<p>' + '链接：' + notice_attachment);
      }
      else if (type == 3){
      	 $("#nameNav").text(talk_title);
-	     $("#nameTitle").text(talk_title);
 	     $("#namecontent").text(talk_title);
 	     $("#content").html('报告人：' + talk_speaker + '<p>' + '<p>' + '报告时间：' + talk_time + '<p>' +'<p>' +  '报告地点：' + talk_room + '<p>' + '<p>' + '摘要：' + talk_abstract);
      }
      else if (type == 4){
      	 $("#nameNav").text(conference_name);
-	     $("#nameTitle").text(conference_name);
 	     $("#namecontent").text(conference_name);
 	     $("#content").html('日期：' +　conference_period + '<p>' +  '<p>' + '会议地点：' + conference_place + '<p>' +  '<p>' + '链接：' + conference_url );
      }

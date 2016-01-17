@@ -22,7 +22,7 @@
 
     var id = GetArgsFromHref(test, "id");
     var name;
-    if (type == 1) {
+    if (type == 1) { //教授
         if (id == 1) {
             photoUrl = '../images/team/photo.jpg';
             name_cn = '岳兴业';
@@ -151,6 +151,117 @@
             experience = 'Postdoctoral Researcher, University of California, San Diego, La Jolla, CA, USA. 2012-2015';
             publication = '';
 
+        }
+    }
+    else if (type == 2) { //访问教授
+        if (id == 1) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = '戴民';
+            name_en = 'Min Dai';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+        if (id == 2) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = '鄂维南';
+            name_en = 'WeiNan E';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+        if (id == 3) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = '黄京芳';
+            name_en = 'JinFang Huang';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+        if (id == 4) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = '柳春';
+            name_en = 'Chun Liu';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+        if (id == 5) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = '王成';
+            name_en = 'Cheng Wang';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+    }
+    else if (type == 3) { //博士后
+        if (id == 1) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = 'XXX';
+            name_en = 'YYY';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
+        }
+    }
+    else if (type == 4) { //学生
+        if (id == 1) {
+            photoUrl = '../images/team/photo.jpg';
+            name_cn = 'YYY';
+            name_en = 'YYY';
+            professional_title = '头衔';
+            department = '系别';
+            emailaddress = '邮箱';
+            mailbox = "邮箱地址";
+            research_area = '偏微分方程数值解、多尺度建模及模拟';
+            research_interests = '研究兴趣';
+            education = '<p> 教育经历</p>';
+            experience = '<p>工作经历的一整段描述</p>' +
+                '<p>我是第二段</p>';
+            publication = '<p>任意多的发表论著</p>';
         }
     }
 
