@@ -37,13 +37,13 @@ body {
 #navBottom
 {
     width:100%;
-    height:300px;
+    height:200px;
     border:0 solid red;
     margin:0;
 }
 #myCarousel{
 	margin-top:93px;
-	width:1130px;
+	width:1140px;
 	margin-right:auto;
 	margin-left:auto;
 }
@@ -61,12 +61,16 @@ body {
 }
 .breadcrumb
 {
-    margin-left:5px;
-	width:1130px;
+    
+	width:1140px;
 	background-color:#dddddd;
 	color:red;
 }
 .container
 {
     width:1170px;
+}
+
+.breadcrumb + .panel{
+	min-height: 300px;
 }
