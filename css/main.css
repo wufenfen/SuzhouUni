@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 body {
-	font-family: 微软雅黑;
+	font-family: 微软雅黑,"Times New Roman";
 	background-color:#ffffff;
 	text-align:center;
 }
@@ -73,4 +73,8 @@ body {
 
 .breadcrumb + .panel{
 	min-height: 300px;
+}
+
+.well{
+	min-height: 312px;	
 }

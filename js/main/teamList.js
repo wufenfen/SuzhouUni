@@ -39,7 +39,7 @@
 function getTeacher() {
     $("#infoList").append(
     '<tr>'
-        +'<td><a target="_self" href="teamDetail.html?type=1&id=3">陈旻昕</a></td>'
+        +'<td width="30%"><a target="_self" href="teamDetail.html?type=1&id=3">陈旻昕</a></td>'
         +'<td>分子模拟、计算结构生物学 </td>'
         +'<td>chenminxin@suda.edu.cn</td>'
     + '</tr>'
@@ -99,7 +99,7 @@ function getTeacher() {
 function getVisitedProf() {
     $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=1">戴民</a></td>'
+        + '<td width="30%"><a target="_self" href="teamDetail.html?type=2&id=1">戴民</a></td>'
         + '<td>这是一段说明名字，例如研究方向</td>'
         + '<td>这里填上邮箱地址</td>'
     + '</tr>'
@@ -140,7 +140,7 @@ function getVisitedProf() {
 function getPostdoc() {
     $("#infoList").append(
     '<tr>'
-		+ '<td><a target="_self" href="teamDetail.html?type=3&id=1">XXX</a></td>'
+		+ '<td width="30%"><a target="_self" href="teamDetail.html?type=3&id=1">XXX</a></td>'
 		+ '<td>偏微分方程数值解、多尺度建模及模拟	</td>'
 		+ '<td>xyh@suda.edu.cn</td>'
 	+ '</tr>'
@@ -151,7 +151,7 @@ function getPostdoc() {
 function getStudent() {
     $("#infoList").append(
     '<tr>'
-		+ '<td><a target="_self" href="teamDetail.html?type=4&id=1">YYY</a></td>'
+		+ '<td width="30%"><a target="_self" href="teamDetail.html?type=4&id=1">YYY</a></td>'
 		+ '<td>偏微分方程数值解、多尺度建模及模拟	</td>'
 		+ '<td>ykc@suda.edu.cn</td>'
 	+ '</tr>'
