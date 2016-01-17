@@ -93,13 +93,13 @@ function infoList(getType) {
         );
         $("#infoList").prepend(
             '<tr>'
-	    		+ '<td><a target="_self" href="researchDetail.html?type=' + getType + '&id=1">合作课题2</a></td>'
+	    		+ '<td><a target="_self" href="researchDetail.html?type=' + getType + '&id=2">合作课题2</a></td>'
 	    		+ '<td>xxx</td>'
 	    	+ '</tr>'
         );
         $("#infoList").prepend(
             '<tr>'
-	    		+ '<td><a target="_self" href="researchDetail.html?type=' + getType + '&id=1">合作课题3</a></td>'
+	    		+ '<td><a target="_self" href="researchDetail.html?type=' + getType + '&id=3">合作课题3</a></td>'
 	    		+ '<td>xxx</td>'
 	    	+ '</tr>'
         );
