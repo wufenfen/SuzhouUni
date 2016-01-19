@@ -11,12 +11,12 @@
     if (type == 1) {
         typeName = '教 师';
         //加载教师信息
-        getTeacher();
+        getFaculty(); 
     }
     else if (type == 2) {
         typeName = '访问讲座教授';
         //加载访问讲座教授信息
-        getVisitedProf();
+        getVisitingProf();
     }
     else if (type == 3) {
         typeName = '博士后';
@@ -36,7 +36,7 @@
 });
 
 //加载教师信息列表 type=1
-function getTeacher() {
+function getFaculty() {
     $("#infoList").append(
     '<tr>'
         +'<td width="30%"><a target="_self" href="teamDetail.html?type=1&id=3">陈旻昕</a></td>'
@@ -90,13 +90,13 @@ function getTeacher() {
     '<tr>'
         +'<td><a target="_self" href="teamDetail.html?type=1&id=8">周圣高</a></td>'
         +'<td>科学计算、数值计算、生物数学</td>'
-        +'<td>yangzw@ustc.edu.cn</td>'
+        +'<td>sgzhou@suda.edu.cn</td>'
     + '</tr>'
     );
 }
 
 //加载访问讲座教授信息列表 type=2
-function getVisitedProf() {
+function getVisitingProf() {
     $("#infoList").append(
     '<tr>'
         + '<td width="30%"><a target="_self" href="teamDetail.html?type=2&id=1">戴民</a></td>'
