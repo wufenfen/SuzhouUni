@@ -27,43 +27,41 @@ $(document).ready(function () {
 function infoList(getType) {
     var test = window.location.href;
     var type = GetArgsFromHref(test, "type");
+    var infoLists = Array();
     if (type == 1){ //学术新闻
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self" href="../../材料/summerschool.htm">Summer school on mathematical finance</a></td>'
-                +'<td>July 8 - July 19</td>'
-            +'</tr>'
-        );
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self" href="http://math.suda.edu.cn/meeting/cpms2013/CPMS2013.html">材料科学中的计算问题</a></td>'
-                +'<td>21-24 August 2013</td>'
-            +'</tr>'
-        );
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self" href="http://math.suda.edu.cn/meeting/MBE2014/MBE2014.html">分子生物学及电生理学的数学建模及模拟</a></td>'
-                +'<td>2-5 June 2014</td>'
-            +'</tr>'
-        );
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self" href="http://cqf.nus.edu.sg/2015_Graduate_Summer_School_on_Quantitative_Finance/Registration.html">2015 Graduate summer school on quantitative finance</a></td>'
-                +'<td>3-13 July 2015</td>'
-            +'</tr>'
-        );
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self" href="http://math.suda.edu.cn/meeting/MBE2016/MBE2016.html">分子生物学及电生理学的数学建模及模拟</a></td>'
-                +'<td>16-18 June 2016</td>'
-            +'</tr>'
-        );
-        $("#infoList").prepend(
-            '<tr>'
-                +'<td><a target="_self"  href="我是超链接地址 ">我是新闻的标题</a></td>'
-                +'<td>21-24 August 2016</td>'
-            +'</tr>'
-        );
+        infoLists = [
+        {
+            id:1, //填写对应的id号，在详情页一一对应
+            href:"../../材料/summerschool.htm", //如果需要额外的链接，写在此处
+            title: 'Summer school on mathematical finance',  //填写标题
+            date:'July 8 - July 19' //填写日期
+        },{
+            id:3,
+            href: "http://math.suda.edu.cn/meeting/cpms2013/CPMS2013.html",
+            title:"材料科学中的计算问题",
+            date:"21-24 August 2013"
+         },{
+            id:4,
+            href: "http://math.suda.edu.cn/meeting/MBE2014/MBE2014.html",
+            title:"分子生物学及电生理学的数学建模及模拟",
+            date:"2-5 June 2014"
+         },{
+            id:5,
+            href: "http://cqf.nus.edu.sg/2015_Graduate_Summer_School_on_Quantitative_Finance/Registration.html",
+            title:"2015 Graduate summer school on quantitative finance",
+            date:"3-13 July 2015"
+         },{
+            id:6,
+            href: "http://math.suda.edu.cn/meeting/MBE2016/MBE2016.html",
+            title:"分子生物学及电生理学的数学建模及模拟",
+            date:"16-18 June 2016"
+         },{
+            id:7,
+            href: "我是超链接地址",
+            title:"我是新闻的标题",
+            date:"16-18 June 2016" 
+        }];
+        addTheList(infoLists, getType,1,10);     
     }
     else if(type==2){ //通知公告
         $("#infoList").prepend(
@@ -191,7 +189,7 @@ function infoList(getType) {
         );
         $("#infoList").prepend(
             '<tr>'
-                +'<td><a target="_self" href="newsDetail.html?type='+getType+'&id=18">Variational Implicit-Solvent Model and Size-Modified Poisson--Boltzmann Theory for Charged Biomolecules</a></td>'
+                +'<td><a target="_self" href="newsDetail.html?type= '+getType+'&id=18">Variational Implicit-Solvent Model and Size-Modified Poisson--Boltzmann Theory for Charged Biomolecules</a></td>'
                 +'<td>2014-12-19</td>'
             +'</tr>'
         );
@@ -233,4 +231,22 @@ function infoList(getType) {
     
 }
 
+//page表示第几页 size表示每页显示几条
+function addTheList(infoLists, getType, page, size) {
+    var total = infoLists.length; //总页数
+    if (page * size > total + size) {
+        return; //页数请求超过限制
+    }
+    var start = (page - 1) * size; //开始的页数  第一项从0开始
+    var end = start + size - 1; //结束的页数
+    if (getType == 1) { //链接跳转到其他页面
+        for (var i = start; i < (infoLists.length && end); i++) {
+            $("#infoList").prepend("<tr> <td><a  href=\'" + infoLists[i].href + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
+        };
+    } else { //跳转到自己填写的页面 
+        for (var i = start; i < (infoLists.length && end); i++) {
+            $("#infoList").prepend("<tr> <td><a  href='newsDetail.html?type=" + getType + '&id=' + infoLists[i].id + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
+        };
+    }
 
+}
