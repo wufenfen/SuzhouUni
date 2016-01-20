@@ -64,151 +64,144 @@ $(document).ready(function(){
 	     }
 	 }
 	 if (type == 3) {
-	     if(id==1){
+	     if(id==20){
 		     talk_title='Point-spread function reconstruction in ground-based astronomy';
 		     talk_abstract='我是摘要';
 		     talk_speaker='报告人1';
 		     talk_time='2015-11-9';
 		     talk_room='会议地点1';
 	     }
-	     if(id==2){
+	     if(id==19){
 		     talk_title='金融数据分析前沿讲座';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-11-06';
 		     talk_room='';
 	     }
-	     if(id==3){
+	     if(id==18){
 		     talk_title='Recent Developments in Linear Programming and Its Application in Finance';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-11-04';
 		     talk_room='';
 	     }
-	     if(id==4){
+	     if(id==17){
 		     talk_title='从数据库到大数据：应用，技术和新思维';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-09-25';
 		     talk_room='';
 	     }
-	     if(id==5){
+	     if(id==16){
 		     talk_title='Nonlinearities of biopolymer gels increase the range of force transmission';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-09-16';
 		     talk_room='';
 	     }
-	     if(id==6){
+	     if(id==15){
 		     talk_title='Variational Implicit Solvation of Biomolecules';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-09-09';
 		     talk_room='';
 	     }
-	     if(id==7){
+	     if(id==14){
 		     talk_title='Efficient and unconditionally stable numerical schemes for phase field models';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-07-08';
 		     talk_room='';
 	     }
-	     if(id==8){
+	     if(id==13){
 		     talk_title='RKDG method with conservation constraints and hierarchical reconstruction limiter for solving conservation laws';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-07-01';
 		     talk_room='';
 	     }
-	     if(id==9){
+	     if(id==12){
 		     talk_title='Short Selling and Endogenous Price Uncertainty';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-06-16';
 		     talk_room='';
 	     }
-	     if(id==10){
+	     if(id==11){
 		     talk_title='Energy stable schemes for a diffusive interface model with Peng-Robinson equation of state';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-05-22';
 		     talk_room='';
 	     }
-	     if(id==11){
+	     if(id==10){
 		     talk_title='王成老师系列报告（10讲）';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-05-19';
 		     talk_room='';
 	     }
-	     if(id==12){
+	     if(id==9){
 		     talk_title='Averaging for nonlinear PDEs';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-05-18';
 		     talk_room='';
 	     }
-	     if(id==13){
+	     if(id==8){
 		     talk_title='统计、交叉、金融工程中心大数据系列报告（三）2';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-05-12';
 		     talk_room='';
 	     }
-	     if(id==14){
+	     if(id==7){
 		     talk_title='天元讲堂：统计、交叉、金融工程中心大数据系列报告（三）';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-05-11';
 		     talk_room='';
 	     }
-	     if(id==15){
+	     if(id==6){
 		     talk_title='The Internet financing and risk management';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-04-20 ';
 		     talk_room='';
 	     }
-	     if(id==16){
+	     if(id==5){
 		     talk_title='Reverse Computation in noise-driven dynamic complex networks';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-04-17 ';
 		     talk_room='';
 	     }
-	     if(id==17){
+	     if(id==4){
 		     talk_title='面向证券市场操纵行为的大数据特异群组挖掘研究';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2015-04-16';
 		     talk_room='';
 	     }
-	     if(id==18){
+	     if(id==3){
 		     talk_title='Variational Implicit-Solvent Model and Size-Modified Poisson--Boltzmann Theory for Charged Biomolecules';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2014-12-19';
 		     talk_room='';
 	     }
-	     if(id==19){
+	     if(id==2){
 		     talk_title='Spectral and pseudo-spectral schemes for nonlinear PDEs (10 Lectures)';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2014-12-15';
 		     talk_room='';
 	     }
-	     if(id==20){
+	     if(id==1){
 		     talk_title='Modeling and simulation of multi-phase flow on solid surfaces';
 		     talk_abstract='';
 		     talk_speaker='';
 		     talk_time='2014-12-15';
-		     talk_room='';
-	     }
-	     if(id==21){
-		     talk_title='';
-		     talk_abstract='';
-		     talk_speaker='';
-		     talk_time='';
 		     talk_room='';
 	     }
 	 }
