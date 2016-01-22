@@ -81,50 +81,50 @@ function getInfoList(type) {
             id: 1, //填写对应的id号，在详情页一一对应
             href: "../../材料/summerschool.htm", //如果需要额外的链接，写在此处
             title: 'Summer school on mathematical finance', //填写标题
-            date: 'July 8 - July 19' //填写日期
+            date: '2013-06-8' //填写日期
         }, {
             id: 2,
             href: "http://math.suda.edu.cn/meeting/cpms2013/CPMS2013.html",
             title: "材料科学中的计算问题",
-            date: "21-24 August 2013"
+            date: "2013-08-21"
         }, {
             id: 3,
             href: "http://math.suda.edu.cn/meeting/MBE2014/MBE2014.html",
             title: "分子生物学及电生理学的数学建模及模拟",
-            date: "2-5 June 2014"
+            date: "2014-06-2"
         }, {
             id: 4,
             href: "http://cqf.nus.edu.sg/2015_Graduate_Summer_School_on_Quantitative_Finance/Registration.html",
             title: "2015 Graduate summer school on quantitative finance",
-            date: "1.3-13"
+            date: "2016-01-3"
         }, {
             id: 5,
             href: "http://math.suda.edu.cn/meeting/MBE2016/MBE2016.html",
             title: "分子生物学及电生理学的数学建模及模拟",
-            date: "1.16-18"
+            date: "2016-01-16"
         }, {
             id: 6,
             href: "我是超链接地址",
             title: "是吗？你会变化吗",
-            date: "1.16-18"
+            date: "2016-01-28"
         }];
 
     } else if (type == 2) { //通知公告
         infoLists = [{
             id: 1, //填写对应的id号，在详情页一一对应
             href: "", //如果需要额外的链接，写在此处
-            title: '公告通知1', //填写标题
-            date: '1.8-19' //填写日期
+            title: '公告通知1公告通知1公告通知1公告通知1公告通知1公告通知1', //填写标题
+            date: '2016-01-19' //填写日期
         }, {
             id: 2,
             href: "",
             title: "公告通知2",
-            date: "1.21-24"
+            date: "2016-01-24"
         }, {
             id: 3,
             href: "",
             title: "公告通知3",
-            date: "1.25-27"
+            date: "2016-01-27"
         }];
     } else if (type == 3) { //学术报告
         infoLists = [{
@@ -233,17 +233,17 @@ function getInfoList(type) {
             id: 1,
             href: "",
             title: '会议标题1',
-            date: '2016-1-7'
+            date: '2016-01-7'
         }, {
             id: 2,
             href: "",
             title: "会议标题2",
-            date: "2016-1-14"
+            date: "2016-01-14"
         }, {
             id: 3,
             href: "",
             title: "会议标题3",
-            date: "2016-1-27"
+            date: "2016-01-27"
         }];
     }
     return infoLists;

@@ -99,37 +99,37 @@ function getFaculty() {
 function getVisitingProf() {
     $("#infoList").append(
     '<tr>'
-        + '<td width="30%"><a target="_self" href="teamDetail.html?type=2&id=1">戴民</a></td>'
-        + '<td>这是一段说明名字，例如研究方向</td>'
-        + '<td>这里填上邮箱地址</td>'
+        + '<td width="30%"><a target="_self" href="http://www.math.nus.edu.sg/~matdm/">戴民</a></td>'
+        + '<td>金融数学</td>'
+        + '<td>matdm@nus.edu.sg</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=2">鄂维南</a></td>'
-        + '<td>这是一段说明名字，例如研究方向</td>'
-        + '<td>这里填上邮箱地址</td>'
+        + '<td><a target="_self" href="https://web.math.princeton.edu/~weinan/">鄂维南</a></td>'
+        + '<td>应用数学，数据科学</td>'
+        + '<td>weinan@math.princeton.edu</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=3">黄京芳</a></td>'
-        + '<td>这是一段说明名字，例如研究方向</td>'
-        + '<td>这里填上邮箱地址</td>'
+        + '<td><a target="_self" href="http://huang.web.unc.edu/">黄京芳</a></td>'
+        + '<td>快速算法及其应用</td>'
+        + '<td>huang@email.unc.edu</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=4">柳春</a></td>'
-        + '<td>这是一段说明名字，例如研究方向</td>'
-        + '<td>这里填上邮箱地址</td>'
+        + '<td><a target="_self" href="http://www.personal.psu.edu/cxl41/">柳春</a></td>'
+        + '<td>生物数学，偏微分方程</td>'
+        + '<td>liu@math.psu.edu</td>'
     + '</tr>'
     );
      $("#infoList").append(
     '<tr>'
-        + '<td><a target="_self" href="teamDetail.html?type=2&id=5">王成</a></td>'
-        + '<td>这是一段说明名字，例如研究方向</td>'
-        + '<td>这里填上邮箱地址</td>'
+        + '<td><a target="_self" href="http://www.math.umassd.edu/~cwang/">王成</a></td>'
+        + '<td>偏微分方程数值解</td>'
+        + '<td>cwang1@umassd.edu</td>'
     + '</tr>'
     );
      
