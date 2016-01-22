@@ -49,7 +49,7 @@ $(document).ready(function() {
         var news = getInfoList(1);
         var last_Index = news.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#news").append("<tr><td width='75%'><h5><a class='btn-link' href='newsDetail.html?type=1&id=" +
+             $("#news").append("<tr><td width='75%'><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=1&id=" +
             news[i].id + "'><i class='fa fa-hand-o-right'></i>" + news[i].title +
             " </a> </h5></td><td><h5>" + news[i].date + "</h5>  </td> </tr>");
         };
@@ -57,7 +57,7 @@ $(document).ready(function() {
         var report = getInfoList(3);
         var last_Index = report.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#report").append("<tr><td width='75%' ><h5><a class='btn-link' href='newsDetail.html?type=3&id=" +
+             $("#report").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=3&id=" +
             report[i].id + "'><i class='fa fa-hand-o-right'></i>" + report[i].title +
             " </a> </h5></td><td><h5>" + report[i].date + "</h5>  </td> </tr>");
         };
@@ -65,7 +65,7 @@ $(document).ready(function() {
         var notice = getInfoList(2);
         var last_Index = notice.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#notice").append("<tr><td width='75%' ><h5><a class='btn-link' href='newsDetail.html?type=2&id=" +
+             $("#notice").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=2&id=" +
             notice[i].id + "'><i class='fa fa-hand-o-right'></i>" + notice[i].title +
             " </a> </h5></td><td><h5>" + notice[i].date + "</h5>  </td> </tr>");
         };

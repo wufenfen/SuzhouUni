@@ -79,10 +79,14 @@ body {
 	min-height: 312px;	
 }
 
-#news, #report, #notice{
+h5[name="abbr"]{
 	text-align: left;
-	word-wrap:break-word;
-	word-break:break-all;
+    color: #C1BFBF;
+    width: 240px;
+    white-space: nowrap;
+    height: 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .col-md-4 {
