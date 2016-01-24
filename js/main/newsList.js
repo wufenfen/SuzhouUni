@@ -49,15 +49,15 @@ $(document).ready(function() {
         var news = getInfoList(1);
         var last_Index = news.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#news").append("<tr><td width='75%'><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=1&id=" +
-            news[i].id + "'><i class='fa fa-hand-o-right'></i>" + news[i].title +
+             $("#news").append("<tr><td width='75%'><h5 name='abbr'><a class='btn-link' target='_blank' href='" 
+            + news[i].href + "'><i class='fa fa-hand-o-right'></i>" + news[i].title +
             " </a> </h5></td><td><h5>" + news[i].date + "</h5>  </td> </tr>");
         };
 
         var report = getInfoList(3);
         var last_Index = report.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#report").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=3&id=" +
+             $("#report").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' target='_blank' href='newsDetail.html?type=3&id=" +
             report[i].id + "'><i class='fa fa-hand-o-right'></i>" + report[i].title +
             " </a> </h5></td><td><h5>" + report[i].date + "</h5>  </td> </tr>");
         };
@@ -65,7 +65,7 @@ $(document).ready(function() {
         var notice = getInfoList(2);
         var last_Index = notice.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#notice").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' href='newsDetail.html?type=2&id=" +
+             $("#notice").append("<tr><td width='75%' ><h5 name='abbr'><a class='btn-link' target='_blank' href='newsDetail.html?type=2&id=" +
             notice[i].id + "'><i class='fa fa-hand-o-right'></i>" + notice[i].title +
             " </a> </h5></td><td><h5>" + notice[i].date + "</h5>  </td> </tr>");
         };
@@ -256,11 +256,11 @@ function addTheList(infoLists, type, page, size, total) {
     var end = start + size; //结束的页数
     if (type == 1) { //链接跳转到其他页面
         for (var i = start; i < total && i < end; i++) {
-            $("#infoList").prepend("<tr> <td><a  href=\'" + infoLists[i].href + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
+            $("#infoList").prepend("<tr> <td><a  target='_blank' href=\'" + infoLists[i].href + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
         };
     } else { //跳转到自己填写的页面 
         for (var i = start; i < total && i < end; i++) {
-            $("#infoList").prepend("<tr> <td><a  href='newsDetail.html?type=" + type + '&id=' + infoLists[i].id + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
+            $("#infoList").prepend("<tr> <td><a  target='_blank' href='newsDetail.html?type=" + type + '&id=' + infoLists[i].id + '\'>' + infoLists[i].title + '</a></td>  <td>' + infoLists[i].date + '</td> </tr>');
         };
     }
     $("#pageInfo").html(' &nbsp;  &nbsp;第' + page + '页/共' + Math.ceil(infoLists.length / 10) + '页');

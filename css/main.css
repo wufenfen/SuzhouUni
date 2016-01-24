@@ -96,3 +96,7 @@ h5[name="abbr"]{
 td a{
 	line-height: 1.5em;
 }
+
+#resource{
+	line-height: 2em;
+}
