@@ -81,7 +81,7 @@ function getInfoList(type) {
             id: 1, //填写对应的id号，在详情页一一对应
             href: "../../材料/summerschool.htm", //如果需要额外的链接，写在此处
             title: 'Summer school on mathematical finance', //填写标题
-            date: '2013-06-8' //填写日期
+            date: '2013-06-08' //填写日期
         }, {
             id: 2,
             href: "http://math.suda.edu.cn/meeting/cpms2013/CPMS2013.html",
