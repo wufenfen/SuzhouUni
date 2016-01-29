@@ -85,7 +85,7 @@
         }
 
         if (id == 2) {
-            photoUrl = '../images/team/photo (2).jpg';
+            photoUrl = '../images/team/jingrunchen.jpg';
             name_cn = '陈景润';
             name_en = 'Jingrun Chen';
             professional_title = '教授';
@@ -147,7 +147,7 @@
 
         }
         if (id == 3) {
-            photoUrl = '../images/team/photo (3).jpg';
+            photoUrl = '../images/team/photo (2).jpg';
             name_cn = '陈旻昕';
             name_en = 'Minxin Chen';
             professional_title = '副教授';
@@ -202,7 +202,7 @@
 
         }
         if (id == 5) {
-            photoUrl = '../images/team/photo (5).jpg';
+            photoUrl = '../images/team/yhxu.jpg';
             name_cn = '徐玉红';
             name_en = 'Yuhong Xu';
             professional_title = '博士';
@@ -271,7 +271,7 @@
                     </ol>';
         }
         if (id == 6) {
-            photoUrl = '../images/team/photo (6).jpg';
+            photoUrl = '../images/team/lyang.jpg';
             name_cn = '杨凌';
             name_en = '';
             professional_title = '教授（博士生导师）';
@@ -335,7 +335,7 @@
             publication = '';
         }
         if (id == 8) {
-            photoUrl = '../images/team/photo (8).jpg';
+            photoUrl = '../images/team/sgzhou.jpg';
             name_cn = '周圣高';
             name_en = '';
             professional_title = '副教授';
