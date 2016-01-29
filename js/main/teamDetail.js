@@ -11,7 +11,7 @@
     if (type == 1) {
         typeName = '教 师';
     } else if (type == 2) {
-        typeName = '访问讲座教授';
+        typeName = '客座教授';
     } else if (type == 3) {
         typeName = '博士后';
     } else if (type == 4) {

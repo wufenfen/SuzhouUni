@@ -82,7 +82,7 @@ function initNav() {
 			+'<ul class="dropdown-menu"> '
 				+'<li><a target="_self" href="teamList.html?type=1">教 师</a> '
 				+'</li> '
-				+'<li><a target="_self" href="teamList.html?type=2">访问讲座教授</a> '
+				+'<li><a target="_self" href="teamList.html?type=2">客座教授</a> '
 				+'</li> '
                 +'<li><a target="_self" href="teamList.html?type=3">博士后</a> '
 				+'</li> '
