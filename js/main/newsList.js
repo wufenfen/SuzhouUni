@@ -20,7 +20,7 @@ $(document).ready(function() {
 
         var page = 1; //全局变量页数
         var size = 10;
-        var total = infoLists.length; //总页数
+        var total = infoLists.length; //总的元素个数
         addTheList(infoLists, type, page, size, total); //添加当前页
 
         $("#nameNav").html(typeName);
@@ -49,8 +49,8 @@ $(document).ready(function() {
         var news = getInfoList(1);
         var last_Index = news.length-1;
         for (var i = last_Index; i >=0 && i > last_Index-3 ; i--) {
-             $("#news").append("<tr><td width='75%'><h5 name='abbr'><a class='btn-link' target='_blank' href='" 
-            + news[i].href + "'><i class='fa fa-hand-o-right'></i>" + news[i].title +
+             $("#news").append("<tr><td width='75%'><h5 name='abbr'><a class='btn-link' target='_blank' href='newsDetail.html?type=1&id=" +
+            news[i].id + "'><i class='fa fa-hand-o-right'></i>" + news[i].title +
             " </a> </h5></td><td><h5>" + news[i].date + "</h5>  </td> </tr>");
         };
 
@@ -208,7 +208,8 @@ function getInfoList(type) {
 //page表示第几页 size表示每页显示几条
 function addTheList(infoLists, type, page, size, total) {
     $("#infoList").html(''); //添加之前先清空本页
-    var start = (page - 1) * size; //开始的页数  第一项从0开始
+    rev_page = Math.ceil(total/size) + 1 - page;
+    var start = (rev_page - 1) * size; //开始的页数  第一项从0开始
     var end = start + size; //结束的页数
     //跳转到自己填写的页面 
     for (var i = start; i < total && i < end; i++) {

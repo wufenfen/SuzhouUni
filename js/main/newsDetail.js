@@ -106,10 +106,10 @@ $(document).ready(function(){
 		     notice_attachment ='公告通知附件2';
 	     }
 	     if(id==3){
-		     notice_title ='';
-		     notice_content ='';
-		     notice_date ='';
-		     notice_attachment ='';
+		     notice_title ='公告通知标题3';
+		     notice_content ='公告通知内容3';
+		     notice_date ='公告通知发布日期3';
+		     notice_attachment ='公告通知附件3';
 	     }
 	 }
 	 if (type == 3) {
