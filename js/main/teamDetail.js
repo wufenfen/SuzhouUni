@@ -24,7 +24,7 @@
     var name;
     if (type == 1) { //教授
         if (id == 1) {
-            photoUrl = '../images/team/photo.jpg';
+            photoUrl = '../images/team/xyyue.jpg';
             name_cn = '岳兴业';
             name_en = 'Xingye Yue';
             professional_title = '教授，博士生导师';
